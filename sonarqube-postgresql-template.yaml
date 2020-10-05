@@ -244,7 +244,7 @@ objects:
         from:
           kind: ImageStreamTag
           name: postgresql:9.5
-          namespace: openshift
+          namespace: kcb-testing-framework
       type: ImageChange
     - type: ConfigChange
 - apiVersion: v1
